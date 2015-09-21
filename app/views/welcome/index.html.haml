@@ -1,5 +1,32 @@
-%h1 INDEX
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online notebook. Never forget an idea again.
+		%button= link_to "Sign up", new_user_registration_path
 
-= link_to "Show me the note", notes_path
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook application. Period."
+		%p.name Fisher Liang
 
-= link_to "New note", new_note_path
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Fanny pack street art High Life, locavore yr fashion axe selfies hashtag messenger bag salvia Bushwick raw denim art party actually
+			.callout
+				%h2 Rockets
+				%p Kale chips chambray swag butcher stumptown typewriter. Deep v cronut salvia Williamsburg shabby chic, keytar lumbersexual Neutra Odd Future selfies irony pug.
+			.callout
+				%h2 Lightings
+				%p Readymade hella kale chips, literally lumbersexual hashtag slow-carb Truffaut salvia cornhole PBR&B butcher Wes Anderson Etsy brunch.
+
+#bottom_cta
+	.wrapper
+		%h2 For Realz!
+		%p I want you to sign up... If you don’t. I will find you!
+		%button= link_to "Click Meee!!!", new_user_registration_path
+
+%footer
+	%p &copy; Mackenzie Child
